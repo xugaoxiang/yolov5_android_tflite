@@ -10,14 +10,11 @@ import android.graphics.Matrix;
 import android.os.Environment;
 import android.util.Log;
 
-import org.tensorflow.lite.examples.detection.MainActivity;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.OutputStreamWriter;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 

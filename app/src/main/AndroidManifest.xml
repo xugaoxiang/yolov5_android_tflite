@@ -21,11 +21,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.ObjectDetection"
         android:hardwareAccelerated="true"
-        android:debuggable="true"
         android:installLocation="internalOnly">
 
         <activity
-            android:name=".DetectorActivity"
+            android:name=".MainActivity"
             android:label="@string/tfe_od_app_name"
             android:screenOrientation="portrait">
             <intent-filter>
